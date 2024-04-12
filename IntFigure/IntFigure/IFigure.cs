@@ -8,7 +8,8 @@ namespace IntFigure
 {
     interface IFigure
     {
-        double Square();
         double Perimeter();
+        double Square();
+        string ToString();
     }
 }
